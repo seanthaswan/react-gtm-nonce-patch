@@ -1,7 +1,7 @@
 {
-  "name": "react-gtm-module",
+  "name": "react-gtm-module-nonce-patch",
   "version": "2.0.11",
-  "description": "React Google Tag Manager Module",
+  "description": "React Google Tag Manager Module w/ Add Nonce Monkey Patch",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint .",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alinemorelli/react-gtm"
+    "url": "https://github.com/seanthaswan/react-gtm-nonce-patch"
   },
   "author": {
     "name": "Aline Morelli",
