@@ -3,10 +3,10 @@
 ---
 
 [![Build Status](https://img.shields.io/travis/alinemorelli/react-gtm/master.svg?style=flat-square)](https://travis-ci.org/alinemorelli/react-gtm)
-[![npm version](https://img.shields.io/npm/v/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
-[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
+[![npm version](https://img.shields.io/npm/v/react-gtm-module-nonce-patch.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module-nonce-patch)
+[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module-nonce-patch.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module-nonce-patch)
 
-# react-gtm-module
+# react-gtm-module-nonce-patch
 
 ### React Google Tag Manager Module
 
@@ -19,7 +19,7 @@ You can easily use custom dataLayer, multiple dataLayers and additional events.
 [npm](https://www.npmjs.com/):
 
 ```bash
-npm install react-gtm-module --save
+npm install react-gtm-module-nonce-patch --save
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000'
@@ -58,7 +58,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -89,7 +89,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -110,7 +110,7 @@ And send your data in each page you want
 import React from 'react'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     dataLayer: {
@@ -149,7 +149,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -178,7 +178,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module-nonce-patch'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
