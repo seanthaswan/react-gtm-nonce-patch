@@ -1,6 +1,6 @@
-// Type definitions for react-gtm-module 2.0
+// Type definitions for react-gtm-module-nonce-patch
 // Project: https://github.com/alinemorelli/react-gtm
-// Definitions by: Marc Veens <https://github.com/marcveens>
+// Definitions by: Marc Veens <https://github.com/marcveens> and updated by Sean Swanson <https://github.com/seanthaswan
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.2
 declare module "react-gtm-module-nonce-patch";
@@ -27,6 +27,10 @@ export interface TagManagerArgs extends DataLayerArgs {
    * Used to set environments, something like env-00.
    */
   preview?: string | undefined;
+  /**
+   * Used to add a nonce which should be an unguessable, random value that the server generates individually for each response.
+   */
+  nonce?: string | undefined;
 }
 
 export interface DataLayerArgs {
