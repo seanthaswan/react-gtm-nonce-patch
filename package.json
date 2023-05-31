@@ -1,6 +1,6 @@
 {
   "name": "react-gtm-module-nonce-patch",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "React Google Tag Manager Module w/ Add Nonce Monkey Patch",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
